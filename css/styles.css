@@ -1,0 +1,209 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#header {
+  padding: 0 20px;
+  background-color: #eee;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+}
+#header-img {
+  width: 90%;
+}
+#nav-bar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link {
+  margin: 8px;
+  padding: 4px;
+  text-decoration: none;
+  color: #111;
+}
+
+.tag {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.tag-line {
+  margin-bottom: 16px;
+}
+form {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#email {
+  width: 150%;
+  height: 25px;
+}
+#submit {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #f1c40f;
+}
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+.container {
+  margin: 32px auto;
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.desc {
+  margin: 50px 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 3rem;
+  margin-right: 50px;
+  width: 80px;
+  color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video-link {
+  margin: 50px auto;
+}
+
+.pricing {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.price-cards {
+  border: 2px solid black;
+  border-radius: 3px;
+  margin: 32px 8px;
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.product {
+  background-color: #C9CCD5;
+  height: 32px;
+  width: 100%;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price {
+  margin-bottom: 16px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  margin-bottom: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.butn {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #f1c40f;
+}
+.footer {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.foot {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #C9CCD5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.terms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 770px) {
+  .container {
+    width: 100%;
+  }
+  .desc {
+    width: 100%;
+  }
+  .pricing {
+    display: flex;
+    flex-direction: column;
+  }
+  .price-cards {
+    width: 100%;
+    margin: 16px auto;
+  }
+  .footer {
+    align-self: flex-end;
+  }
+  .foot {
+    align-self: flex-end;
+  }
+}
